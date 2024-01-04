@@ -1,34 +1,36 @@
 .form {
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 1fr auto;
     grid-gap: 20px;
-}
-
-@media (max-width: 720px) {
+  
+  }
+  
+  @media (max-width: 767px) {
     .form {
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 15px;
+      grid-template-columns: 1fr;
     }
-}
+  }
 
-.form__input {
+  .form__input {
     padding: 10px;
-    border: 2px solid #ededed;
-}
+    border: 2px solid #ddd;
+  }
 
-.form__button {
-    background-color: #037c7c;
-    border: 1px solid #08abab;
-    color: #ffffff;
-    padding: 5px;
-}
+  .form__button {
+    padding: 10px;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+    transition: 0.5s;
+  }
 
-.form__button:hover {
-    background-color: #016a6a;
-    
-}
+  .form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+    color: white;
+    transform:  scale(1.2);
+  }
 
-.form__button:active {
-    background-color:  #057d7d;
-}
+  .form__button:active {
+    background-color: hsl(180, 100%, 35%);
+    color: white;
+  }
