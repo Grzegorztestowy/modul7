@@ -1,7 +1,7 @@
 # Grzegorz Prabucki - Lista zadań
 ## ^_^
 
-[demo](https://grzegorztestowy.github.io/dev/modul7)
+[demo](https://grzegorztestowy.github.io/modul7)
 
 ## Welcome to the Readme :-)
 I am presenting another project made for educational purposes.
@@ -15,6 +15,7 @@ Presentation :
 Used technologies:
 - HTML
 - CSS
-- JavaScript
 - BEM
-- Normalize
+- Grid
+- Media queries
+- Immutability array in JavaScript
